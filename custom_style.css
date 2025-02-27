@@ -1,0 +1,71 @@
+.faq-block {
+  margin-top: 30px;
+}
+
+.header__col-left--stom::before {
+  background: url("../img/stom/header/bg-stom-new.webp") no-repeat -35% 50% / 150%;
+}
+
+
+@media only screen and (min-width: 992px) {
+  .header__col-left.header__col-left--stom::before {
+    background-position: -30% 60%;
+  }
+}
+@media (min-width: 992px) {
+  .b-faq__title-block::before {
+    left: calc(50% - 600px);
+  }
+  .header__col-left-pretrip::before {
+    background-size: 131%;
+    background-position: -32% 50%;
+  }
+}
+
+@media (min-width: 1700px) {
+  .b-faq__title-block::before {
+    left: calc(50% - 700px);
+  }
+  div.header__col-left-edu-dist::before {
+    background-position: 39% 50%;
+  }
+}
+
+@media only screen and (min-width: 1401px) {
+  div.header__col-left.header__col-left--stom::before {
+    background-position: -30% 50%;
+  }
+  .header__col-left-pretrip::before {
+    background-size: 111%;
+    background-position: -132% 50%;
+  }
+}
+
+@media only screen and (max-width: 1500px) {
+  .b-faq__title-block::before {
+    height: 637px;
+    width: 270px;
+  }
+}
+
+@media only screen and (min-width: 1970px) {
+  .header__col-left-pretrip::before {
+    background-size: 77%;
+    background-position: 158% 50%;
+  }
+}
+
+@media (max-width: 1280px) {
+  .header__col-left::before {
+    height: unset;
+  }
+}
+
+@media (max-width: 992px) {
+  .header__col-left--stom::before {
+    background-size: cover;
+  }
+  .header__col-left::before {
+    height: 100vw;
+  }
+}
